@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://patricksheedy.com/sitemap.xml
+Sitemap: https://epsteinfiles.live/sitemap.xml

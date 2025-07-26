@@ -1,4 +1,4 @@
-// Main JavaScript for Patrick Sheedy's Portfolio
+// Main JavaScript for the website
 
 (function() {
     'use strict';
@@ -309,5 +309,5 @@
         });
     }
 
-    console.log('🚀 Patrick Sheedy Portfolio - JavaScript Loaded');
+    console.log('🚀 Website JavaScript Loaded');
 })();
