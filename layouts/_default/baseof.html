@@ -79,15 +79,28 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-light text-dark py-4 mt-5">
+  <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h5>{{ .Site.Title }}</h5>
-          <p class="mb-0">{{ .Site.Params.description }}</p>
+          <p>{{ .Site.Params.description }}</p>
         </div>
-        <div class="col-md-6 text-md-end">
-          <p class="mb-0">&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
+        <div class="col-lg-3">
+          <ul class="list-unstyled">
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" class="text-light">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Disclaimer</h5>
+          <p class="small">This website is for informational purposes only and does not provide legal advice.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p class="mb-0">&copy; {{ now.Year }} {{ .Site.Title }}. All Rights Reserved.</p>
         </div>
       </div>
     </div>

@@ -1,11 +1,15 @@
 /* Custom CSS for The Epstein Files */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap');
+
 :root {
-  --primary-color: #343a40; /* Dark Gray */
-  --secondary-color: #6c757d; /* Medium Gray */
-  --light-color: #f8f9fa; /* Off-white */
-  --dark-color: #212529; /* Black */
-  --font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;
+  --primary-color: #2c3e50; /* Midnight Blue */
+  --secondary-color: #7f8c8d; /* Grayish */
+  --accent-color: #c0392b; /* Dark Red */
+  --light-color: #ecf0f1; /* Light Gray */
+  --dark-color: #34495e; /* Darker Blue/Gray */
+  --font-family-sans-serif: 'Roboto', "Helvetica Neue", Arial, sans-serif;
+  --font-family-serif: 'Lora', 'Georgia', serif;
 }
 
 .display-none { display: none; }
@@ -13,10 +17,16 @@
 /* Body and Typography */
 body {
   font-family: var(--font-family-sans-serif);
-  line-height: 1.6;
+  line-height: 1.7;
   padding-top: 56px;
-  background-color: #ffffff;
-  color: #212529;
+  background-color: #f8f9fa;
+  color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-serif);
+    font-weight: 700;
+    color: var(--primary-color);
 }
 
 /* Smooth scrolling */
@@ -26,70 +36,107 @@ html {
 
 /* Navbar Styles */
 .navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   background-color: #ffffff !important;
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-family: var(--font-family-serif);
+  font-size: 1.6rem;
   letter-spacing: -0.5px;
-  color: #000000 !important;
+  color: var(--primary-color) !important;
 }
 
 .nav-link {
-  font-weight: 500;
-  color: #000000 !important;
+  font-weight: 700;
+  color: var(--dark-color) !important;
   transition: color 0.3s ease;
 }
 
-.nav-link:hover {
-  color: var(--primary-color) !important;
+.nav-link:hover, .nav-link.active {
+  color: var(--accent-color) !important;
 }
 
 /* Hero Section on Homepage */
 .hero-section {
-  background-color: var(--light-color);
-  padding: 4rem 0;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 5rem 0;
   text-align: center;
 }
 
 .hero-section h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 3.5rem;
+  color: #ffffff;
 }
 
 .hero-section p {
   font-size: 1.25rem;
-  color: var(--secondary-color);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-section .btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    padding: 0.75rem 1.5rem;
+    font-weight: 700;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #a52f23;
+    border-color: #a52f23;
+}
+
+.featured-posts {
+    background-color: #ffffff;
 }
 
 /* Card Styles for Posts */
 .card {
-  border: 1px solid #dee2e6;
-  transition: box-shadow 0.3s ease;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border-top: 4px solid var(--light-color);
 }
 
 .card:hover {
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  border-top-color: var(--accent-color);
 }
 
 .card-title a {
   text-decoration: none;
-  color: inherit;
+  color: var(--primary-color);
+  transition: color 0.2s ease;
 }
 
 .card-title a:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body h4 {
+  font-size: 1rem; /* Sets a smaller, consistent font size for headers within card summaries */
 }
 
 /* Post Content Styling */
+.post-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: 600;
-  border-bottom: 1px solid #dee2e6;
+  font-weight: 700;
+  border-bottom: 2px solid var(--light-color);
   padding-bottom: 0.5rem;
 }
 
@@ -98,24 +145,25 @@ html {
 }
 
 .post-content blockquote {
-  border-left: 4px solid var(--secondary-color);
-  background-color: var(--light-color);
+  border-left: 4px solid var(--accent-color);
+  background-color: #f8f9fa;
   padding: 1rem 1.5rem;
   margin: 2rem 0;
   font-style: italic;
+  color: var(--dark-color);
 }
 
 .post-content code {
-  background-color: #e9ecef;
+  background-color: var(--light-color);
+  color: var(--accent-color);
   padding: 0.2rem 0.4rem;
   border-radius: 0.25rem;
   font-size: 0.875em;
 }
 
 .post-content pre {
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  color: #212529;
+  background-color: #2d3748; /* Dark background for code blocks */
+  color: #e2e8f0;
   padding: 1.5rem;
   border-radius: 0.5rem;
   overflow-x: auto;
@@ -124,9 +172,30 @@ html {
 
 /* Footer */
 footer {
-  background-color: var(--light-color);
-  color: var(--dark-color);
+  background-color: var(--primary-color);
+  color: var(--light-color);
   margin-top: auto;
+  padding: 3rem 0;
+  border-top: 4px solid var(--accent-color);
+}
+
+footer h5 {
+    color: #ffffff;
+    font-family: var(--font-family-serif);
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer a {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--accent-color);
 }
 
 /* Responsive Design */
