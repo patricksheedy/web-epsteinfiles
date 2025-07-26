@@ -1,9 +1,6 @@
-baseURL = 'https://patricksheedy.com'
+baseURL = 'https://www.epsteinfacts.com'
 languageCode = 'en-us'
-title = 'Patrick Sheedy - Software Developer'
-canonifyURLs = true
-enableRobotsTXT = true
-enableGitInfo = true
+title = 'The Epstein Files: Uncovering the Truth'
 
 [markup]
   [markup.goldmark]
@@ -26,28 +23,30 @@ enableGitInfo = true
 
 [params]
   author = "Patrick Sheedy"
-  description = "Software Developer specializing in modern web technologies"
+  description = 'A comprehensive resource for information and documents related to the Jeffrey Epstein case.'
   email = "patricksheedy@gmail.com"
   github = "https://github.com/patricksheedy"
   linkedin = "https://linkedin.com/in/patricksheedy"
   twitter = "https://twitter.com/patrick_sheedy"
   googleAnalytics = "G-TP1L00RTZP"
+  favicon = 'favicon.ico'
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Articles"
-    url = "/posts"
+    name = 'Home'
+    url = '/'
     weight = 1
-#  [[menu.main]]
-#    identifier = "about"
-#    name = "About"
-#    url = "/about"
-#    weight = 3
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
+    name = 'About'
+    url = '/about'
+    weight = 2
+  [[menu.main]]
+    name = 'Documents'
+    url = '/posts'
+    weight = 3
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact'
     weight = 4
 
 [outputs]

@@ -7,7 +7,6 @@
   <!-- SEO Meta Tags -->
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta name="author" content="{{ .Site.Params.author }}">
   <link rel="canonical" href="{{ .Permalink }}">
   
   <!-- Open Graph Meta Tags -->
@@ -35,7 +34,7 @@
   <link rel="stylesheet" href="/css/main.css">
   
   <!-- Theme Color Meta -->
-  <meta name="theme-color" content="#0d6efd">
+  <meta name="theme-color" content="#ffffff">
   
   <!-- RSS Feed -->
   {{ range .AlternativeOutputFormats -}}
@@ -54,9 +53,9 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="/">{{ .Site.Params.author }}</a>
+      <a class="navbar-brand fw-bold" href="/">{{ .Site.Title }}</a>
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -70,26 +69,6 @@
           </li>
           {{ end }}
         </ul>
-          <!-- Social Links -->
-        <div class="d-flex align-items-center">
-          <div class="social-links">
-            {{ if .Site.Params.github }}
-            <a href="{{ .Site.Params.github }}" class="text-light me-2" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-            {{ end }}
-            {{ if .Site.Params.linkedin }}
-            <a href="{{ .Site.Params.linkedin }}" class="text-light me-2" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            {{ end }}
-            {{ if .Site.Params.twitter }}
-            <a href="{{ .Site.Params.twitter }}" class="text-light" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-            {{ end }}
-          </div>
-        </div>
       </div>
     </div>
   </nav>
@@ -100,39 +79,15 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-dark text-light py-4 mt-5">
+  <footer class="bg-light text-dark py-4 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h5>{{ .Site.Params.author }}</h5>
+          <h5>{{ .Site.Title }}</h5>
           <p class="mb-0">{{ .Site.Params.description }}</p>
         </div>
         <div class="col-md-6 text-md-end">
-          <div class="social-links mb-3">
-            {{ if .Site.Params.github }}
-            <a href="{{ .Site.Params.github }}" class="text-light me-3" target="_blank" rel="noopener">
-              <i class="fab fa-github fa-lg"></i>
-            </a>
-            {{ end }}
-            {{ if .Site.Params.linkedin }}
-            <a href="{{ .Site.Params.linkedin }}" class="text-light me-3" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin fa-lg"></i>
-            </a>
-            {{ end }}
-            {{ if .Site.Params.twitter }}
-            <a href="{{ .Site.Params.twitter }}" class="text-light me-3" target="_blank" rel="noopener">
-              <i class="fab fa-twitter fa-lg"></i>
-            </a>
-            {{ end }}
-            {{ range .Site.Menus.main }}
-            {{ if eq .Name "Contact" }}
-            <a href="{{ .URL }}" class="text-light">
-              <i class="fas fa-envelope fa-lg"></i>
-            </a>
-            {{ end }}
-            {{ end }}
-          </div>
-          <p class="mb-0">&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+          <p class="mb-0">&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
         </div>
       </div>
     </div>

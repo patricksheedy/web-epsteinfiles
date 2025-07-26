@@ -1,64 +1,38 @@
 ---
-title: "Contact"
-description: "Get in touch with Patrick Sheedy for collaboration, consulting, or just to say hello."
-date: 2025-05-28
+title: "Contact Us"
+description: "Submit information, media inquiries, or general questions to The Epstein Files project."
+date: 2025-07-23
 draft: false
 ---
 
-# Get In Touch
+# Contact Information
 
-I'm always excited to connect with fellow developers, potential collaborators, and anyone interested in discussing technology, projects, or ideas. Whether you have a question about one of my blog posts, want to explore a collaboration opportunity, or simply want to say hello, I'd love to hear from you.
+We welcome tips, information, and inquiries from the public, journalists, and researchers. Please use the appropriate channels below to get in touch with us.
 
-## Contact Information
+## How to Reach Us
 
-### Email
-The best way to reach me is via email:
+### **General Inquiries & Information Submission**
 
-**patrick<span class="display-none">ZZZ</span>sheedy@gm<span class="display-none">YYY</span>ail.com**
+If you have information, documents, or tips relevant to the Jeffrey Epstein case, please contact us via email. We take confidentiality seriously, but please be mindful of the security of your communication channels.
 
-### Professional Networks
+**Email**: `contact@epsteinfacts.com`
 
-Connect with me on professional platforms:
+**Disclaimer**: Please do not send highly sensitive information through standard email. We are exploring more secure options for submissions and will update this page accordingly.
 
-- **LinkedIn**: [linkedin.com/in/patricksheedy](https://linkedin.com/in/patricksheedy)
-- **GitHub**: [github.com/patricksheedy](https://github.com/patricksheedy)
-- **Twitter**: [@patrick_sheedy](https://twitter.com/patrick_sheedy)
+### **Media Inquiries**
 
-## What I'm Looking For
+For all media-related questions, interview requests, or requests for comment, please direct your correspondence to our media relations team.
 
-I'm particularly interested in connecting with people who are:
-
-### 🚀 **Project Collaborators**
-Looking for a developer to help bring an idea to life? I enjoy working on innovative projects that challenge me to learn new technologies and solve interesting problems.
-
-### 💼 **Consulting Opportunities**
-Need technical expertise for your team or project? I offer consulting services in web development, architecture design, and technology strategy.
-
-### 📝 **Content Collaboration**
-Interested in guest posting, co-authoring articles, or collaborating on educational content? I'm always open to sharing knowledge and learning from others.
-
-### 🎓 **Mentoring & Learning**
-Whether you're a new developer looking for guidance or an experienced professional wanting to discuss industry trends, I believe in the power of community and knowledge sharing.
-
-### 🔧 **Open Source Contributors**
-Have an open source project that could benefit from collaboration? I enjoy contributing to projects that make a positive impact on the developer community.
+**Email**: `media@epsteinfacts.com`
 
 ---
 
-## Frequently Asked Questions
+## Our Commitment
 
-### **Can you help with my project?**
-Possibly! It depends on the scope, timeline, and technology stack. Send me an email with details about your project, and I'll let you know if it's a good fit.
+We are dedicated to uncovering and sharing the truth. While we are a small, independent project and may not be able to respond to every message, we review all correspondence carefully. Your contributions are valuable to this mission.
 
-### **Do you offer code reviews?**
-Yes, I offer code review services for individuals and teams. This can include architecture reviews, performance optimization suggestions, and best practices recommendations.
-
-### **Are you available for speaking engagements?**
-I enjoy sharing knowledge through speaking. If you're organizing a conference, meetup, or workshop, feel free to reach out with details about your event.
-
-### **Can you help me learn to code?**
-While I have limited availability for one-on-one mentoring, I'm always happy to answer specific questions and point you toward helpful resources. Check out my blog for tutorials and learning materials.
+**Please Note**: We are not a law enforcement agency or a legal firm. We cannot provide legal advice or take official reports. If you have information that may be relevant to an active investigation, please contact the appropriate law enforcement authorities.
 
 ---
 
-Looking forward to hearing from you!
+Thank you for your interest and support in this critical effort for transparency and accountability.
