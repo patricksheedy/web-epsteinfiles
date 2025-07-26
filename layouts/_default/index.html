@@ -4,14 +4,11 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 text-center">
-        <h1 class="display-4 fw-bold mb-4">{{ .Site.Title }}</h1>
+        <h1 class="display-4 fw-bold mb-4">The Epstein Files</h1>
         <p class="lead mb-4">{{ .Site.Params.description }}</p>
         <div class="hero-buttons">
           <a href="/posts" class="btn btn-primary btn-lg me-3">
             <i class="fas fa-file-alt me-2"></i>Browse Documents
-          </a>
-          <a href="/about" class="btn btn-outline-secondary btn-lg">
-            <i class="fas fa-info-circle me-2"></i>About The Project
           </a>
         </div>
       </div>
@@ -29,14 +26,14 @@
       </div>
     </div>
     <div class="row g-4">
-      {{ range first 3 (where .Site.Pages "Type" "posts") }}
+      {{ range first 6 (where .Site.RegularPages "Type" "posts") }}
       <div class="col-md-4">
         <article class="card h-100 shadow-sm">
           <div class="card-body">
             <h5 class="card-title">
               <a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a>
             </h5>
-            <p class="card-text text-muted">{{ .Summary | truncate 120 }}</p>
+            <p class="card-text text-muted">{{ .Summary | truncate 600 }}</p>
             <div class="d-flex justify-content-between align-items-center">
               <small class="text-muted">
                 <i class="fas fa-calendar me-1"></i>{{ .Date.Format "Jan 2, 2006" }}
@@ -49,7 +46,8 @@
         </article>
       </div>
       {{ end }}
-    </div>    <div class="text-center mt-4">
+    </div>
+    <div class="text-center mt-4">
       <a href="posts" class="btn btn-primary">View All Documents</a>
     </div>
   </div>
