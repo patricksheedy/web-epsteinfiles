@@ -1,7 +1,7 @@
 ---
 title: "The Clinton Connection: A Friendship Under Scrutiny"
 description: "An examination of the relationship between former President Bill Clinton and Jeffrey Epstein, and the questions that still surround their friendship."
-date: 2025-07-25
+date: 2025-09-25
 draft: false
 tags: ["Bill Clinton", "Politics", "Investigation"]
 ---

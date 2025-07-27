@@ -1,7 +1,7 @@
 ---
 title: "The Palm Beach Story: Where It All Began"
 description: "A look back at the early days of the Epstein case in Palm Beach, Florida, and the failures of the local police and prosecutors to bring him to justice."
-date: 2025-07-25
+date: 2025-07-12
 draft: false
 tags: ["Palm Beach", "Investigation", "Police"]
 ---

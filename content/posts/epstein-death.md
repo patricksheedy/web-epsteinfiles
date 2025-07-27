@@ -1,7 +1,7 @@
 ---
 title: "The Death of a Predator: Suicide or Something More?"
 description: "An examination of the circumstances surrounding Jeffrey Epstein's death in a Manhattan jail cell, and the conspiracy theories that continue to swirl around his final hours."
-date: 2025-07-25
+date: 2025-07-24
 draft: false
 tags: ["Death", "Conspiracy", "Investigation"]
 ---

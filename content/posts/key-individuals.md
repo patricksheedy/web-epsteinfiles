@@ -1,7 +1,7 @@
 ---
 title: "Key Individuals in the Epstein Case"
 description: "Profiles of the key individuals involved in the Jeffrey Epstein case, including associates, victims, and prosecutors."
-date: 2025-07-22
+date: 2025-07-17
 draft: false
 tags: ["People", "Investigation"]
 ---

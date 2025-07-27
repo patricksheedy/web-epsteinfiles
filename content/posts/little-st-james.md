@@ -1,7 +1,7 @@
 ---
 title: "Little St. James: The Island of Secrets"
 description: "A journey to Little St. James, Jeffrey Epstein's private island in the U.S. Virgin Islands, and the dark secrets it is alleged to hold."
-date: 2025-07-25
+date: 2025-07-16
 draft: false
 tags: ["Little St. James", "Investigation", "Evidence"]
 ---

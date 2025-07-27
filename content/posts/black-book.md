@@ -1,7 +1,7 @@
 ---
 title: "The Black Book: Epstein's Network of Power"
 description: "An examination of Jeffrey Epstein's infamous 'black book,' a directory of the rich and powerful, and what it reveals about the network of influence he cultivated."
-date: 2025-07-25
+date: 2025-07-26
 draft: false
 tags: ["Black Book", "Evidence", "Network"]
 ---

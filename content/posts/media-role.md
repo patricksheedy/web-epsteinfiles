@@ -1,7 +1,7 @@
 ---
 title: "The Role of the Media: From Silence to Scrutiny"
 description: "An analysis of the media's role in the Jeffrey Epstein case, from the early years of silence and complicity to the investigative reporting that finally brought the story to light."
-date: 2025-07-25
+date: 2025-07-14
 draft: false
 tags: ["Media", "Investigation", "Miami Herald"]
 ---

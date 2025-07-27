@@ -1,7 +1,7 @@
 ---
 title: "The Prince and the Pedophile: Prince Andrew's Connection to Epstein"
 description: "An examination of the relationship between Prince Andrew, the Duke of York, and Jeffrey Epstein, and the allegations of sexual abuse that have tarnished the reputation of the British royal family."
-date: 2025-07-25
+date: 2025-07-11
 draft: false
 tags: ["Prince Andrew", "Royalty", "Virginia Giuffre"]
 ---

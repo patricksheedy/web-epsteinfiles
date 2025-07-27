@@ -1,7 +1,7 @@
 ---
 title: "The Modeling Agency Connection: A Pipeline for Abuse"
 description: "An investigation into Jeffrey Epstein's connections to the modeling industry, and how he allegedly used modeling agencies as a pipeline for recruiting and abusing young women and girls."
-date: 2025-07-25
+date: 2025-07-13
 draft: false
 tags: ["Modeling", "Recruitment", "Investigation"]
 ---

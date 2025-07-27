@@ -1,7 +1,7 @@
 ---
 title: "The Zorro Ranch: Epstein's New Mexico Hideaway"
 description: "A look at Jeffrey Epstein's sprawling Zorro Ranch in New Mexico, and the allegations that it was another hub for his sex trafficking operation."
-date: 2025-07-25
+date: 2025-07-05
 draft: false
 tags: ["Zorro Ranch", "New Mexico", "Investigation"]
 ---

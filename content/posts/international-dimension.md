@@ -1,7 +1,7 @@
 ---
 title: "The International Dimension: Epstein's Global Network"
 description: "An examination of the international dimension of the Epstein case, and the questions that still surround his connections to foreign governments and intelligence agencies."
-date: 2025-07-25
+date: 2025-07-19
 draft: false
 tags: ["International", "Intelligence", "Investigation"]
 ---

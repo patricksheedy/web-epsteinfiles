@@ -1,7 +1,7 @@
 ---
 title: "The 'Lolita Express': A Glimpse into Epstein's World"
 description: "An inside look at Jeffrey Epstein's private Boeing 727, the so-called 'Lolita Express,' and the secrets its flight logs may hold."
-date: 2025-07-25
+date: 2025-07-15
 draft: false
 tags: ["Flight Logs", "Investigation", "Evidence"]
 ---

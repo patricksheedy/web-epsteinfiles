@@ -1,7 +1,7 @@
 ---
 title: "Ghislaine Maxwell: The Woman at the Center of the Web"
 description: "An in-depth look at Ghislaine Maxwell, Jeffrey Epstein's longtime associate, and her role as the alleged madam at the heart of his sex trafficking operation."
-date: 2025-07-25
+date: 2025-07-20
 draft: false
 tags: ["Ghislaine Maxwell", "Investigation", "Trial"]
 ---

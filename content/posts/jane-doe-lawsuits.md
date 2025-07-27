@@ -1,7 +1,7 @@
 ---
 title: "The Legal Battle for Anonymity: Jane Doe vs. the World"
 description: "An examination of the legal battles fought by Epstein's victims to protect their anonymity, and the importance of the 'Jane Doe' lawsuit in the fight for justice."
-date: 2025-07-25
+date: 2025-07-18
 draft: false
 tags: ["Legal", "Victims", "Anonymity"]
 ---

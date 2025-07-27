@@ -1,7 +1,7 @@
 ---
 title: "The Victims' Voices: The Courage to Speak Out"
 description: "A tribute to the brave women who have come forward to share their stories of abuse at the hands of Jeffrey Epstein and his associates, and their long fight for justice."
-date: 2025-07-25
+date: 2025-07-06
 draft: false
 tags: ["Victims", "Justice", "Advocacy"]
 ---

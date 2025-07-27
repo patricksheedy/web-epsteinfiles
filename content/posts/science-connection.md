@@ -1,7 +1,7 @@
 ---
 title: "The Science Connection: Epstein's Philanthropy and Influence"
 description: "An exploration of Jeffrey Epstein's efforts to cultivate a reputation as a serious intellectual and philanthropist, and how he used his wealth to infiltrate the world of science."
-date: 2025-07-25
+date: 2025-07-10
 draft: false
 tags: ["Philanthropy", "Science", "Influence"]
 ---

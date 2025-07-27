@@ -1,7 +1,7 @@
 ---
 title: "The Deal That Shocked the World: Epstein's 2008 Non-Prosecution Agreement"
 description: "A deep dive into the controversial 2008 non-prosecution agreement that allowed Jeffrey Epstein to escape federal charges and the public outcry that followed."
-date: 2025-07-25
+date: 2025-07-23
 draft: false
 tags: ["Legal", "Investigation", "Acosta"]
 ---
@@ -22,7 +22,7 @@ One of the most criticized aspects of the NPA was the secrecy in which it was ne
 
 ## The Aftermath and Renewed Scrutiny
 
-For years, the deal remained largely out of the public eye. However, investigative reporting by the Miami Herald in 2018 brought the case back into the national spotlight. The series, "Perversion of Justice," detailed the extent of Epstein's crimes and the failings of the justice system.
+For years, the deal remained largely out of the public eye. However, investigative reporting by the Miami Herald in 8AUG2018 brought the case back into the national spotlight. The series, "Perversion of Justice," detailed the extent of Epstein's crimes and the failings of the justice system.
 
 The renewed attention led to a federal judge ruling in 2019 that the prosecutors had violated the victims' rights by keeping the deal secret. It also put immense pressure on Alexander Acosta, who had since become the U.S. Secretary of Labor. Acosta defended his office's handling of the case, claiming they had been forced into the deal because of the challenges of the case. However, he eventually resigned from his cabinet position amid the public outcry.
 

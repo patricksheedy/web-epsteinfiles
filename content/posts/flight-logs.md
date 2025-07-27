@@ -1,7 +1,7 @@
 ---
 title: "The Epstein Flight Logs"
 description: "An examination of the flight logs from Jeffrey Epstein's private jets, detailing passengers and destinations."
-date: 2025-07-23
+date: 2025-07-21
 draft: false
 tags: ["Evidence", "Flight Logs"]
 ---

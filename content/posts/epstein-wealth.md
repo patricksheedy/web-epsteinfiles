@@ -1,7 +1,7 @@
 ---
 title: "The Mystery of Epstein's Wealth: Where Did the Money Come From?"
 description: "An investigation into the source of Jeffrey Epstein's vast fortune, and the questions that still surround his mysterious business dealings."
-date: 2025-07-25
+date: 2025-07-22
 draft: false
 tags: ["Wealth", "Finance", "Investigation"]
 ---

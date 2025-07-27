@@ -1,7 +1,7 @@
 ---
 title: "The Trump Connection: A Friendship That Faded"
 description: "An examination of the relationship between former President Donald Trump and Jeffrey Epstein, and the questions that still surround their friendship."
-date: 2025-07-25
+date: 2025-07-07
 draft: false
 tags: ["Donald Trump", "Politics", "Investigation"]
 ---

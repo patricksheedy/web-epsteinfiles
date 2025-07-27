@@ -1,7 +1,7 @@
 ---
 title: "The Enablers: The People Who Looked the Other Way"
 description: "An examination of the network of enablers who surrounded Jeffrey Epstein, and the role they played in allowing his crimes to continue for so long."
-date: 2025-07-25
+date: 2025-07-08
 draft: false
 tags: ["Enablers", "Network", "Investigation"]
 ---

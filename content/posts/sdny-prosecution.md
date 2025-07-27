@@ -1,7 +1,7 @@
 ---
 title: "The Southern District of New York: A Second Chance at Justice"
 description: "An examination of the role of the U.S. Attorney's Office for the Southern District of New York in the Epstein case, and how they were able to succeed where others had failed."
-date: 2025-07-25
+date: 2025-07-09
 draft: false
 tags: ["SDNY", "Legal", "Investigation"]
 ---
